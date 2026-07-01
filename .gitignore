@@ -1,0 +1,38 @@
+# --- 1. 你特别要求的目录 ---
+logs/
+memory/
+tools/logs
+
+# --- 2. Python 编译文件 (必须忽略) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 3. 环境变量与密钥 (⚠️ 极其重要: 防止 API Key 泄露) ---
+# CrewAI 通常需要 API Key，千万不要上传 .env 文件！
+.env
+.env.local
+.env.*
+
+# --- 4. IDE 配置 (PyCharm / VSCode) ---
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+
+# --- 5. 虚拟环境 ---
+# 你的 trace 显示你在用 conda，虽然通常环境在项目外，
+# 但防止你在项目内创建了 venv，加上这些总是保险的
+venv/
+.venv/
+env/
+.conda/
+
+# --- 6. 操作系统生成的文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 7. CrewAI / 数据库可能产生的文件 ---
+*.db
+*.sqlite3
+chroma_db/
