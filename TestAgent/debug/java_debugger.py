@@ -181,17 +181,9 @@ def run_java_line_tracer_with_output(
 
 # 使用示例
 if __name__ == "__main__":
-    # 示例1：简单执行
-    # returncode, stdout, stderr = run_java_line_tracer(
-    #     project_path=r"D:\BJFU\TestAgent\crewAI\pro-mas-crewai\src\pro_mas_crewai\output\project_code\login\backend",
-    #     class_name="user_authentication.service.impl.AuthenticationServiceImpl",
-    #     method_name="findUserIdentityByUsername",
-    #     test_method="user_authentication.service.impl.AuthenticationServiceImplTest#test_tc_001_case_insensitive_username_lookup",
-    #     jar_path=r"D:\BJFU\TestAgent\project\TestAgent\debug\line-tracer.jar"
-    # )
 
     returncode, stdout, stderr = run_java_line_tracer(
-        project_path=r'D:\BJFU\TestAgent\dataset\RQ4\workdir\Actor_relationship_game',
+        project_path=r'D:\****\TestAgent\dataset\RQ4\workdir\Actor_relationship_game',
         class_name="Actor_relationship_game.GameplayInterface",
         method_name="findConnections",
         test_method="Actor_relationship_game.GameplayInterfaceFindConnectionsTest#testTC_002_positiveNoConnectionFoundBetweenTwoActors",
