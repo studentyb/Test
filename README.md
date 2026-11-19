@@ -1,4 +1,4 @@
-# CMATG
+# Test(CMATG)
 
 CMATG generates unit tests for a whole project from its requirement and design documents. Several LLM agents (built on CrewAI) split the project into features, derive metamorphic relations (MRs) for each feature, design test cases, write the test code, run it and repair it. Python (pytest) and Java (Maven or Gradle, JUnit 5) projects are supported.
 
@@ -7,7 +7,7 @@ This folder contains the source code only. It does not contain datasets, baselin
 ## Contents
 
 ```
-CMATG/
+Test(CMATG)/
 |-- README.md
 |-- TestAgent/                  the CMATG pipeline
 |   |-- main.py                 minimal entry point
