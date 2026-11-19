@@ -14,7 +14,7 @@ from generation.agent_with_cc import Test4CA
 # ===================================================================
 
 # 被测代码 (SUT) 根目录
-SUT_ROOT = r"D:\BJFU\TestAgent\dataset\RQ4\workdir\Actor_relationship_game\src\main\java"  # Java 项目示例
+SUT_ROOT = r"D:\****\TestAgent\dataset\RQ4\workdir\Actor_relationship_game\src\main\java"  # Java 项目示例
 # SUT_ROOT = r"D:\path\to\src"  # Python 项目示例
 
 # 项目根目录（包含 pom.xml/build.gradle 或 pytest.ini）
